@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillforge"
+version = "0.1.0"
+description = "An agentic AI that forges its own tools, evolves them when they fail, and dreams about its mistakes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+claude = ["anthropic>=0.40.0"]
+dev = ["pytest"]
+
+[project.scripts]
+skillforge = "skillforge.cli:main"
+
+[tool.setuptools]
+packages = ["skillforge"]

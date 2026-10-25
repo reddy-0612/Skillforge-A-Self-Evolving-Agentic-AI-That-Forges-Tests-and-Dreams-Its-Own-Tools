@@ -1,0 +1,2 @@
+# The offline demo needs NOTHING. Install this only to use a real LLM:
+anthropic>=0.40.0
