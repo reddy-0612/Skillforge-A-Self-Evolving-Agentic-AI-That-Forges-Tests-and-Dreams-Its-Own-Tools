@@ -1,4 +1,4 @@
-# 🔨 Skillforge
+# 🔨 Skillforge: A Self-Evolving Agentic AI
 
 **An agentic AI that doesn't just *use* tools: it forges them, tests them, evolves them when they fail, and dreams about its own mistakes.**
 
@@ -40,8 +40,7 @@ When a task needs a capability the agent doesn't have, it writes the tool, prove
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/skillforge && cd skillforge
-
+git clone https://github.com/reddy-0612/skillforge-self-evolving-agent && cd skillforge-self-evolving-agent
 # 1) Offline demo, no API key, no dependencies
 python -m skillforge --mock run "Reverse the words in 'the quick brown fox' then count the vowels"
 
